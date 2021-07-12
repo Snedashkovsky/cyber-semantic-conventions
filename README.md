@@ -69,7 +69,7 @@ ipfs_hash(JSON)                     # `semantic convention` json
 }
 ```
 ![Semantic Convention Standards. JSON definition](img/semantic_convention_standards_json_definition.png)  
-example for the Tweet Semantic Convention:
+example for the Tweet Semantic Convention ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/628BB43E4217675607CEE06D34B93754CA8E33F420F7E255940C330504F1909C)):
 ```json
 {
   "semantic_convention_name": "tweet",
@@ -87,6 +87,7 @@ example for the Tweet Semantic Convention:
 }
 ```
 ![The Tweet Convention Standard. JSON definition](img/tweet_json_definition.png)  
+
 ## Constants
 IPFS address of the `semantic convention`: `QmbCq4d3CdvSSx9NHPrVM9WxA9uj36CE5RyzY18gxfrXxS`  
 IPFS address of the `tweet` word: `QmbdH2WBamyKLPE5zu4mJ9v49qvY8BFfoumoVPMR5V4Rvx`  
@@ -107,7 +108,7 @@ ipfs_hash("tweet") -> ipfs_hash("message")                      # `to` role name
 ```
 ![The Tweet Convention Standard. cyberLink definition](img/tweet_cyberlinks_definition.png)  
 ### JSON Definition
-Definition of the Tweet Semantic Convention by a cyberLink and JSON
+Definition of the Tweet Semantic Convention by a cyberLink and JSON ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/628BB43E4217675607CEE06D34B93754CA8E33F420F7E255940C330504F1909C))
 ##### cyberLInk
 ```python
 ipfs_hash("semantic convention") -> # `semantic convention` class
