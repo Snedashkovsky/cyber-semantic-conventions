@@ -24,16 +24,8 @@ ipfs_hash(`to_[n]` role name)  ->  ipfs_hash(`to_[n]` key value)          # `to_
 ] 
 ```
 ![Semantic Convention Standards. cyberLink definition](img/semantic_convention_standards_cyberlinks_definition.png)  
-example for the Tweet Semantic Convention:
-```python
-ipfs_hash("semantic convention") -> ipfs_hash("tweet")          # `semantic convention` name
-ipfs_hash("tweet") -> ipfs_hash(`semantic convention` standard) # `semantic convention` standard
-ipfs_hash("tweet") -> ipfs_hash("author")                       # `sender` role name
-ipfs_hash("tweet") -> ipfs_hash("key_value")                    # `from` role name
-ipfs_hash("key_value") -> ipfs_hash("tweet")                    # `from` key value
-ipfs_hash("tweet") -> ipfs_hash("message")                      # `to` role name
-```
-![The Tweet Convention Standard. cyberLink definition](img/tweet_cyberlinks_definition.png)  
+[example for the Tweet Semantic Convention](#tweet)
+
 ### JSON Definition
 Definition of the Tweet Semantic Convention by a cyberLink and JSON
 ##### cyberLInk
@@ -69,24 +61,7 @@ ipfs_hash(JSON)                     # `semantic convention` json
 }
 ```
 ![Semantic Convention Standards. JSON definition](img/semantic_convention_standards_json_definition.png)  
-example for the Tweet Semantic Convention ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/628BB43E4217675607CEE06D34B93754CA8E33F420F7E255940C330504F1909C)):
-```json
-{
-  "semantic_convention_name": "tweet",
-  "semantic_convention_standard": `semantic convention` standard,
-  "sender": {
-    "name": "author"
-  },
-  "from": {
-    "name": "tweet_key_value",
-    "key_value": "QmbdH2WBamyKLPE5zu4mJ9v49qvY8BFfoumoVPMR5V4Rvx"
-  },
-  "to": {
-    "name": "message"
-  }
-}
-```
-![The Tweet Convention Standard. JSON definition](img/tweet_json_definition.png)  
+[example for the Tweet Semantic Convention](#tweet)
 
 ## Constants
 IPFS address of the `semantic convention`: `QmbCq4d3CdvSSx9NHPrVM9WxA9uj36CE5RyzY18gxfrXxS`  
@@ -97,7 +72,7 @@ IPFS address of the `follow` word: `QmPLSA5oPqYxgc8F7EwrM8WS9vKrr1zPoDniSRFh8HSr
 cyberLink from the IPFS address of `tweet` word to an IPFS address of a message.  
 Transaction sender is author of a tweet.  
 ### cyberLinks Definition
-Definition of the Tweet Semantic Convention by a multi-cyberLink transaction
+Definition of the Tweet Semantic Convention by a multi-cyberLink [transaction](https://rebyc.cyber.page/network/bostrom/tx/A330EF8736CD0ABBF9CED8767265C0A38052AE328B473D6C3C56300B48DA8C6F)
 ```python
 ipfs_hash("semantic convention") -> ipfs_hash("tweet")          # `semantic convention` name
 ipfs_hash("tweet") -> ipfs_hash(`semantic convention` standard) # `semantic convention` standard
@@ -108,7 +83,7 @@ ipfs_hash("tweet") -> ipfs_hash("message")                      # `to` role name
 ```
 ![The Tweet Convention Standard. cyberLink definition](img/tweet_cyberlinks_definition.png)  
 ### JSON Definition
-Definition of the Tweet Semantic Convention by a cyberLink and JSON ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/628BB43E4217675607CEE06D34B93754CA8E33F420F7E255940C330504F1909C))
+Definition of the Tweet Semantic Convention by a cyberLink and JSON ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/AF619BA714ADC2B4BC2DDEDBE4FBF0B0C09F115D2ED0ECD3CA018599CE123D40))
 ##### cyberLInk
 ```python
 ipfs_hash("semantic convention") -> # `semantic convention` class
