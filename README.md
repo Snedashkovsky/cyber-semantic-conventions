@@ -3,7 +3,9 @@ Semantic conventions allow you to describe data structures recorded in the cyber
 more applications.
 ![Semantic Conventions](img/semantic_conventions.png)
 ## Cyber Semantic Convention Standards
-
+### Semantic Convention Object
+![Semantic Convention Object](img/semantic_convention_object.png)
+[example for a Tweet Object](#tweet-object)
 ### cyberLinks Definition
 
 Definition of a Semantic Convention by a multi-cyberLink transaction
@@ -69,8 +71,10 @@ IPFS address of the `tweet` word: `QmbdH2WBamyKLPE5zu4mJ9v49qvY8BFfoumoVPMR5V4Rv
 IPFS address of the `follow` word: `QmPLSA5oPqYxgc8F7EwrM8WS9vKrr1zPoDniSRFh8HSrxx`
 
 ## Tweet
+### Tweet Object
 cyberLink from the IPFS address of `tweet` word to an IPFS address of a message.  
-Transaction sender is author of a tweet.  
+Transaction sender is author of a tweet.   
+![Tweet Object](img/tweet_object.png)
 ### cyberLinks Definition
 Definition of the Tweet Semantic Convention by a multi-cyberLink [transaction](https://rebyc.cyber.page/network/bostrom/tx/A330EF8736CD0ABBF9CED8767265C0A38052AE328B473D6C3C56300B48DA8C6F)
 ```python
