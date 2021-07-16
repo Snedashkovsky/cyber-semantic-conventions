@@ -1,4 +1,5 @@
 import requests
+from time import sleep
 from cyberpy import Transaction
 
 from config import ACCOUNT_API, LCD_API
@@ -17,7 +18,7 @@ def get_account_data(address: str, account_api: str = ACCOUNT_API, print_message
     return _account_number, _sequence
 
 
-def linking(link_candidates: list, wallet: dict, print_message=True):
+def linking(link_candidates: list, wallet: dict, sleep_time: float = 0, print_message=True):
     _account_number, _sequence = get_account_data(wallet['address'])
     _tx = Transaction(
         privkey=wallet['private_key'],
@@ -36,3 +37,4 @@ def linking(link_candidates: list, wallet: dict, print_message=True):
     _res = requests.post(url=LCD_API, data=_pushable_tx)
     if print_message:
         print(_res.text)
+    sleep(sleep_time)

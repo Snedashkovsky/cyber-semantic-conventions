@@ -4,7 +4,7 @@ more applications.
 ![Semantic Conventions](img/semantic_conventions.png)
 ## Cyber Semantic Convention Standards
 ### Semantic Convention Object
-![Semantic Convention Object](img/semantic_convention_object.png)
+![Semantic Convention Object](img/semantic_convention_object.png)  
 [example for a Tweet Object](#tweet-object)
 ### cyberLinks Definition
 
@@ -74,9 +74,10 @@ IPFS address of the `follow` word: `QmPLSA5oPqYxgc8F7EwrM8WS9vKrr1zPoDniSRFh8HSr
 ### Tweet Object
 cyberLink from the IPFS address of `tweet` word to an IPFS address of a message.  
 Transaction sender is author of a tweet.   
+[Example of Tweet object transaction](https://rebyc.cyber.page/network/bostrom/tx/45DC76417B8BFC1149B6E1FD74313269A3EAFBEE53EF3097DCF02C8F88469CAA)
 ![Tweet Object](img/tweet_object.png)
 ### cyberLinks Definition
-Definition of the Tweet Semantic Convention by a multi-cyberLink [transaction](https://rebyc.cyber.page/network/bostrom/tx/A330EF8736CD0ABBF9CED8767265C0A38052AE328B473D6C3C56300B48DA8C6F)
+Definition of the Tweet Semantic Convention by a multi-cyberLink [transaction](https://rebyc.cyber.page/network/bostrom/tx/A97A7621EFC07C0038FA5B1A9BA328FC3CCF1A5775141256855E4285A061BB27)
 ```python
 ipfs_hash("semantic convention") -> ipfs_hash("tweet")          # `semantic convention` name
 ipfs_hash("tweet") -> ipfs_hash(`semantic convention` standard) # `semantic convention` standard
@@ -87,7 +88,7 @@ ipfs_hash("tweet") -> ipfs_hash("message")                      # `to` role name
 ```
 ![The Tweet Convention Standard. cyberLink definition](img/tweet_cyberlinks_definition.png)  
 ### JSON Definition
-Definition of the Tweet Semantic Convention by a cyberLink and JSON ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/AF619BA714ADC2B4BC2DDEDBE4FBF0B0C09F115D2ED0ECD3CA018599CE123D40))
+Definition of the Tweet Semantic Convention by a cyberLink and JSON ([Transaction](https://rebyc.cyber.page/network/bostrom/tx/3EE04317DE0AFEDAA826CC24A6062BC89339B9CF7F780E33ADC04E8A823F8EEE))
 ##### cyberLInk
 ```python
 ipfs_hash("semantic convention") -> # `semantic convention` class
