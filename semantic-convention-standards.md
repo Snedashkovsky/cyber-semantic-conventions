@@ -22,6 +22,7 @@ ipfs_hash(`to_[n]` role name)  ->  ipfs_hash(`to_[n]` key value)          # `to_
 ]
 ```
 ![Semantic Convention Standards. cyberLink definition](img/semantic_convention_standards_cyberlinks_definition.png)
+
 [example for the Tweet Semantic Convention](#tweet)
 
 ### JSON Definition

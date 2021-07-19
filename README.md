@@ -25,6 +25,8 @@ Tweet Answer is cyberLink:
 - CID of a tweet message -> CID of an answer message  
 
 Transaction sender is author of an answer message.
+
+![Tweet Answer Object](img/tweet_answer_object.png)
   
 ## Tweet Answer (proposed convention)
 It is suggested to add an additional link to recognize answer to a tweet.
@@ -37,6 +39,8 @@ Tweet Answer object is two cyberLinks:
 
 Transaction sender is author of an answer message.
 
+![Tweet Answer Object (proposed convention)](img/tweet_answer_object(proposed).png)
+
 ## Follow
 ### Constants
 CID of the `follow` string: `QmPLSA5oPqYxgc8F7EwrM8WS9vKrr1zPoDniSRFh8HSrxx`
@@ -46,6 +50,8 @@ Follow object is cyberLink:
 
 Transaction sender is a subscriber.
 
+![Follow Object](img/follow_object.png)
+
 ## Unfollow
 ### Constants
 CID of the `unfollow` string: `QmRsRWy8K9Sb5bsHDzTUD1mtXjk5rgtXM2xi4dqmN529kM`
@@ -54,6 +60,8 @@ Unfollow object is cyberLink:
 - CID of the `unfollow` string -> CID of a cyber account address
 
 Transaction sender is an unsubscribed subscriber.
+
+![Unfollow Object](img/unfollow_object.png)
 
 ## Avatar 
 ### Constants
