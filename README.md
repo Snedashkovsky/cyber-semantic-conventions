@@ -74,10 +74,14 @@ Avatar class is cyberLinks:
 - CID of `avatar` string -> CID of `avatar {class}` string  
 
 The `pic`, `name` and `account` avatar classes have been set as constants, and you can skip creating them.
-  
+
+![Avatar Class](img/avatar_class.png)
+
 Avatar object is cyberLink:
 - CID of `avatar {class}` string -> CID of a pic, name or account
 
+![Avatar Object](img/avatar_object.png)
+  
 ## Favorites
 ### Constants
 CID of the `favorite` string: `QmRU8Tz93jmiHEJcTz7GbmuJ6N3DxS8jzqDAp2c9UAK4mR`  
@@ -89,9 +93,13 @@ Favorite class is cyberLink:
 - CID of the `favorite` -> CID of `favorite {name|label|tag}`  
 
 The `name`, `label` and `tag` favorite classes have been set as constants, and you can skip creating them.
-  
+
+![Favorite Class](img/favorite_class.png)
+
 Favorite object is a cyberLink:
 - CID of `favorite {class}` -> CID of an object
+
+![Favorite Object](img/favorite_object.png)
 
 ## Data type 
 ### Constants
@@ -100,8 +108,12 @@ CID of the `data type` string: `QmRU8Tz93jmiHEJcTz7GbmuJ6N3DxS8jzqDAp2c9UAK4mR`
 Initialize of a data type: 
 - CID of the `data type` -> CID of a data type
 
+![Data Type Class](img/data_type_class.png)
+  
 Link object with a data type:
 - CID of a data type -> CID of an object
+
+![Data Type Object](img/data_type_object.png)
 
 ## Price verified 
 - CID of a token contract address -> CID of a price source
