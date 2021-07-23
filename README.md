@@ -11,11 +11,13 @@ IPFS address (CID) of the `tweet` string: `QmbdH2WBamyKLPE5zu4mJ9v49qvY8BFfoumoV
 Tweet object is cyberLink:
 - CID of the `tweet` string -> CID of a message  
 
-Transaction sender is author of a tweet.
+Transaction sender is author of a tweet.  
+
+[Example cyberLink of Tweet object](https://rebyc.cyber.page/network/bostrom/tx/45DC76417B8BFC1149B6E1FD74313269A3EAFBEE53EF3097DCF02C8F88469CAA)    
+[Create Tweet object by the Tweet Semantic Convention](create_objects_by_semantic_convention.ipynb)    
+[Create Tweet object directly](create_objects_directly.ipynb)  
 
 ![Tweet Object](img/tweet_object.png)
-- [example cyberLink of Tweet object](https://rebyc.cyber.page/network/bostrom/tx/45DC76417B8BFC1149B6E1FD74313269A3EAFBEE53EF3097DCF02C8F88469CAA)  
-- [inserting Tweet object into Cyber by the Tweet Semantic Convention](write_object_into_cyber_by_semantic_convention.ipynb)  
 
 ## Tweet Answer (current convention)
 ### Constants
@@ -25,6 +27,9 @@ Tweet Answer is cyberLink:
 - CID of a tweet message -> CID of an answer message  
 
 Transaction sender is author of an answer message.
+
+[Example cyberLink of Tweet Answer object](https://rebyc.cyber.page/network/bostrom/tx/96832D383D88A3D1E3A4CA177BAAE3799D0514BB2FF7E6A183EDA3171CBF219E)  
+[Create Tweet Answer object directly](create_objects_directly.ipynb)  
 
 ![Tweet Answer Object](img/tweet_answer_object.png)
   
@@ -39,7 +44,10 @@ Tweet Answer object is two cyberLinks:
 
 Transaction sender is author of an answer message.
 
-![Tweet Answer Object (proposed convention)](img/tweet_answer_object(proposed).png)
+[Example cyberLinks of Tweet Answer object (proposed convention)](https://rebyc.cyber.page/network/bostrom/tx/7B88195911C18C40EDF8D74F24B94CAE57CBFC82BB620A003F929739580ADB4B)  
+[Create Tweet Answer object directly](create_objects_directly.ipynb)  
+
+![Tweet Answer Object (proposed convention)](img/tweet_answer_object(proposed).png)  
 
 ## Follow
 ### Constants
@@ -49,6 +57,9 @@ Follow object is cyberLink:
 - CID of the `follow` string -> CID of a cyber account address
 
 Transaction sender is a subscriber.
+
+[Example cyberLink of Follow object](https://rebyc.cyber.page/network/bostrom/tx/13D76B4F9F7BDDFC11EDA25887E225E31EE59C2C67CD884D1789C638EEB3D110)  
+[Create Follow object directly](create_objects_directly.ipynb#follow)  
 
 ![Follow Object](img/follow_object.png)
 
@@ -60,6 +71,9 @@ Unfollow object is cyberLink:
 - CID of the `unfollow` string -> CID of a cyber account address
 
 Transaction sender is an unsubscribed subscriber.
+
+[Example cyberLink of Unfollow object](https://rebyc.cyber.page/network/bostrom/tx/F8A5BAB4C7A7F26453A5B4F3448C45D8DEF6A47E3372AF123A44A31466DA82A1)  
+[Create Unfollow object directly](create_objects_directly.ipynb)  
 
 ![Unfollow Object](img/unfollow_object.png)
 
@@ -75,10 +89,16 @@ Avatar class is cyberLinks:
 
 The `pic`, `name` and `account` avatar classes have been set as constants, and you can skip creating them.
 
+[Example cyberLink of Avatar Class](https://rebyc.cyber.page/network/bostrom/tx/FE15AF00777264712C633D3B4C22BFCD979BE3C646745226BCCEE09D3B31531F)  
+[Create Avatar class directly](create_objects_directly.ipynb)  
+
 ![Avatar Class](img/avatar_class.png)
 
 Avatar object is cyberLink:
 - CID of `avatar {class}` string -> CID of a pic, name or account
+
+[Example cyberLink of Avatar object](https://rebyc.cyber.page/network/bostrom/tx/72DDEE4104007DD1EAFC6A6436F192740C5AAAFEE3CB7DAD9EEBD8FABE12543C)  
+[Create Avatar object directly](create_objects_directly.ipynb)  
 
 ![Avatar Object](img/avatar_object.png)
   
@@ -94,29 +114,41 @@ Favorite class is cyberLink:
 
 The `name`, `label` and `tag` favorite classes have been set as constants, and you can skip creating them.
 
+[Example cyberLink of Favorite Class](https://rebyc.cyber.page/network/bostrom/tx/E0E09C89C5EF320F28865F9059AE16CF3B97FF64D89B9FBC6A725F20875A51C6)  
+[Create Favorite class directly](create_objects_directly.ipynb)
+
 ![Favorite Class](img/favorite_class.png)
 
 Favorite object is a cyberLink:
 - CID of `favorite {class}` -> CID of an object
 
+[Example cyberLink of Favorite object](https://rebyc.cyber.page/network/bostrom/tx/735AF99AE9C1678A7C5DD855383497182AFA842CF5BD7A317FD7BCB6B2D1D78C)  
+[Create Favorite object directly](create_objects_directly.ipynb)  
+
 ![Favorite Object](img/favorite_object.png)
 
-## Data type 
+## Data Type 
 ### Constants
 CID of the `data type` string: `QmRU8Tz93jmiHEJcTz7GbmuJ6N3DxS8jzqDAp2c9UAK4mR`
 ### cyberLinks
 Initialize of a data type: 
 - CID of the `data type` -> CID of a data type
 
+[Example cyberLink of Data Type Class](https://rebyc.cyber.page/network/bostrom/tx/43666E5C5E0716C87A663786A71E226613AD566633DEEF220D862FB1E8FB868F)   
+[Initialize of a Data Type directly](create_objects_directly.ipynb)  
+
 ![Data Type Class](img/data_type_class.png)
   
 Link object with a data type:
 - CID of a data type -> CID of an object
 
+[Example cyberLink of Data Type object](https://rebyc.cyber.page/network/bostrom/tx/)  
+[Link object with a Data Type directly](create_objects_directly.ipynb)  
+
 ![Data Type Object](img/data_type_object.png)
 
-## Price verified 
+## Price Verified 
 - CID of a token contract address -> CID of a price source
 
-## Token data
+## Token Data
 - CID of a token contract address -> CID of a metadata
