@@ -17,7 +17,7 @@ Transaction sender is author of a tweet.
 [Create Tweet object by the Tweet Semantic Convention](create_objects_by_semantic_convention.ipynb)    
 [Create Tweet object directly](create_objects_directly.ipynb)  
 
-![Tweet Object](img/tweet_object.png)
+<img alt="Tweet Object" src="img/tweet_object.png" width="600" />
 
 ## Tweet Answer (current convention)
 ### Constants
@@ -31,7 +31,7 @@ Transaction sender is author of an answer message.
 [Example cyberLink of Tweet Answer object](https://rebyc.cyber.page/network/bostrom/tx/96832D383D88A3D1E3A4CA177BAAE3799D0514BB2FF7E6A183EDA3171CBF219E)  
 [Create Tweet Answer object directly](create_objects_directly.ipynb)  
 
-![Tweet Answer Object](img/tweet_answer_object.png)
+<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
   
 ## Tweet Answer (proposed convention)
 It is suggested to add an additional link to recognize answer to a tweet.
@@ -47,7 +47,7 @@ Transaction sender is author of an answer message.
 [Example cyberLinks of Tweet Answer object (proposed convention)](https://rebyc.cyber.page/network/bostrom/tx/7B88195911C18C40EDF8D74F24B94CAE57CBFC82BB620A003F929739580ADB4B)  
 [Create Tweet Answer object directly](create_objects_directly.ipynb)  
 
-![Tweet Answer Object (proposed convention)](img/tweet_answer_object(proposed).png)  
+<img alt="Tweet Answer Object (proposed convention)" src="img/tweet_answer_object(proposed).png" width="600" />
 
 ## Follow
 ### Constants
@@ -61,7 +61,7 @@ Transaction sender is a subscriber.
 [Example cyberLink of Follow object](https://rebyc.cyber.page/network/bostrom/tx/13D76B4F9F7BDDFC11EDA25887E225E31EE59C2C67CD884D1789C638EEB3D110)  
 [Create Follow object directly](create_objects_directly.ipynb#follow)  
 
-![Follow Object](img/follow_object.png)
+<img alt="Follow Object" src="img/follow_object.png" width="600" />
 
 ## Unfollow
 ### Constants
@@ -75,7 +75,7 @@ Transaction sender is an unsubscribed subscriber.
 [Example cyberLink of Unfollow object](https://rebyc.cyber.page/network/bostrom/tx/F8A5BAB4C7A7F26453A5B4F3448C45D8DEF6A47E3372AF123A44A31466DA82A1)  
 [Create Unfollow object directly](create_objects_directly.ipynb)  
 
-![Unfollow Object](img/unfollow_object.png)
+<img alt="Unfollow Object" src="img/unfollow_object.png" width="600" />
 
 ## Avatar 
 ### Constants
@@ -92,7 +92,7 @@ The `pic`, `name` and `account` avatar classes have been set as constants, and y
 [Example cyberLink of Avatar Class](https://rebyc.cyber.page/network/bostrom/tx/FE15AF00777264712C633D3B4C22BFCD979BE3C646745226BCCEE09D3B31531F)  
 [Create Avatar class directly](create_objects_directly.ipynb)  
 
-![Avatar Class](img/avatar_class.png)
+<img alt="Avatar Class" src="img/avatar_class.png" width="600" />
 
 Avatar object is cyberLink:
 - CID of `avatar {class}` string -> CID of a pic, name or account
@@ -100,7 +100,7 @@ Avatar object is cyberLink:
 [Example cyberLink of Avatar object](https://rebyc.cyber.page/network/bostrom/tx/72DDEE4104007DD1EAFC6A6436F192740C5AAAFEE3CB7DAD9EEBD8FABE12543C)  
 [Create Avatar object directly](create_objects_directly.ipynb)  
 
-![Avatar Object](img/avatar_object.png)
+<img alt="Avatar Object" src="img/avatar_object.png" width="600" />
   
 ## Favorites
 ### Constants
@@ -117,6 +117,7 @@ The `name`, `label` and `tag` favorite classes have been set as constants, and y
 [Example cyberLink of Favorite Class](https://rebyc.cyber.page/network/bostrom/tx/E0E09C89C5EF320F28865F9059AE16CF3B97FF64D89B9FBC6A725F20875A51C6)  
 [Create Favorite class directly](create_objects_directly.ipynb)
 
+<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
 ![Favorite Class](img/favorite_class.png)
 
 Favorite object is a cyberLink:
@@ -125,6 +126,7 @@ Favorite object is a cyberLink:
 [Example cyberLink of Favorite object](https://rebyc.cyber.page/network/bostrom/tx/735AF99AE9C1678A7C5DD855383497182AFA842CF5BD7A317FD7BCB6B2D1D78C)  
 [Create Favorite object directly](create_objects_directly.ipynb)  
 
+<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
 ![Favorite Object](img/favorite_object.png)
 
 ## Data Type 
@@ -137,6 +139,7 @@ Initialize of a data type:
 [Example cyberLink of Data Type Class](https://rebyc.cyber.page/network/bostrom/tx/43666E5C5E0716C87A663786A71E226613AD566633DEEF220D862FB1E8FB868F)   
 [Initialize of a Data Type directly](create_objects_directly.ipynb)  
 
+<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
 ![Data Type Class](img/data_type_class.png)
   
 Link object with a data type:
@@ -145,6 +148,7 @@ Link object with a data type:
 [Example cyberLink of Data Type object](https://rebyc.cyber.page/network/bostrom/tx/)  
 [Link object with a Data Type directly](create_objects_directly.ipynb)  
 
+<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
 ![Data Type Object](img/data_type_object.png)
 
 ## Price Verified 
