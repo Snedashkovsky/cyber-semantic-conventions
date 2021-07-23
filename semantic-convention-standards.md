@@ -3,14 +3,19 @@
 ## How to use
 
 ### Insert Objects
-![Insert objects](img/insert_objects.png)  
+<img alt="Insert objects" src="img/insert_objects.png" width="600" />
+
 - [example of inserting by a Semantic Convention](create_objects_by_semantic_convention.ipynb)  
 
 ### Read Objects
-![Read objects](img/read_objects.png)  
+
+<img alt="Read objects" src="img/read_objects.png" width="600" />
+
 
 ## Object Structure in cyber
-![Semantic Convention Object](img/semantic_convention_object.png)  
+
+<img alt="Semantic Convention Object" src="img/semantic_convention_object.png" width="600" />
+
 - [example of a Tweet Object](#tweet-object)
 
 ## Semantic Convention cyberLinks Definition
@@ -69,7 +74,9 @@ ipfs_hash(JSON)                     # `semantic convention` json
   }]
 }
 ```
-![Semantic Convention Standards. JSON definition](img/semantic_convention_standards_json_definition.png)  
+
+<img alt="Semantic Convention Standards. JSON definition" src="img/semantic_convention_standards_json_definition.png" width="600" />
+
 - [example of Semantic Convention for Tweets](#tweet)
 
 ## Constants
@@ -80,7 +87,9 @@ CID of the `tweet` string: `QmbdH2WBamyKLPE5zu4mJ9v49qvY8BFfoumoVPMR5V4Rvx`
 ### Tweet Object
 cyberLink from the IPFS address of `tweet` word to an IPFS address of a message.
 Transaction sender is author of a tweet.
-![Tweet Object](img/tweet_object.png)  
+
+<img alt="Tweet Object" src="img/tweet_object.png" width="600" />
+ 
 - [example transaction of Tweet object](https://rebyc.cyber.page/network/bostrom/tx/45DC76417B8BFC1149B6E1FD74313269A3EAFBEE53EF3097DCF02C8F88469CAA)
 - [inserting Tweet object into Cyber by Semantic Convention](create_objects_by_semantic_convention.ipynb)
 ### cyberLinks Definition
@@ -120,6 +129,8 @@ ipfs_hash(JSON)                     # `semantic convention` json
   }
 }
 ```
-![The Tweet Convention Standard. JSON definition](img/tweet_json_definition.png)  
+
+<img alt="The Tweet Convention Standard. JSON definition" src="img/tweet_json_definition.png" width="600" />
+
 - [example transaction of Tweet Semantic Convention by JSON](https://rebyc.cyber.page/network/bostrom/tx/3EE04317DE0AFEDAA826CC24A6062BC89339B9CF7F780E33ADC04E8A823F8EEE)
 - [creation Tweet Semantic Convention in Cyber](create_tweet_semantic_conventions.ipynb)
