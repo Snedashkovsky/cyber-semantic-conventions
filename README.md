@@ -117,8 +117,7 @@ The `name`, `label` and `tag` favorite classes have been set as constants, and y
 [Example cyberLink of Favorite Class](https://rebyc.cyber.page/network/bostrom/tx/E0E09C89C5EF320F28865F9059AE16CF3B97FF64D89B9FBC6A725F20875A51C6)  
 [Create Favorite class directly](create_objects_directly.ipynb)
 
-<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
-![Favorite Class](img/favorite_class.png)
+<img alt="Favorite Class" src="img/favorite_class.png" width="600" />
 
 Favorite object is a cyberLink:
 - CID of `favorite {class}` -> CID of an object
@@ -126,8 +125,7 @@ Favorite object is a cyberLink:
 [Example cyberLink of Favorite object](https://rebyc.cyber.page/network/bostrom/tx/735AF99AE9C1678A7C5DD855383497182AFA842CF5BD7A317FD7BCB6B2D1D78C)  
 [Create Favorite object directly](create_objects_directly.ipynb)  
 
-<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
-![Favorite Object](img/favorite_object.png)
+<img alt="Favorite Object" src="img/favorite_object.png" width="600" />
 
 ## Data Type 
 ### Constants
@@ -139,8 +137,7 @@ Initialize of a data type:
 [Example cyberLink of Data Type Class](https://rebyc.cyber.page/network/bostrom/tx/43666E5C5E0716C87A663786A71E226613AD566633DEEF220D862FB1E8FB868F)   
 [Initialize of a Data Type directly](create_objects_directly.ipynb)  
 
-<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
-![Data Type Class](img/data_type_class.png)
+<img alt="Data Type Class" src="img/data_type_class.png" width="600" />
   
 Link object with a data type:
 - CID of a data type -> CID of an object
@@ -148,8 +145,7 @@ Link object with a data type:
 [Example cyberLink of Data Type object](https://rebyc.cyber.page/network/bostrom/tx/)  
 [Link object with a Data Type directly](create_objects_directly.ipynb)  
 
-<img alt="Tweet Answer Object" src="img/tweet_answer_object.png" width="600" />
-![Data Type Object](img/data_type_object.png)
+<img alt="Data Type Object" src="img/data_type_object.png" width="600" />
 
 ## Price Verified 
 - CID of a token contract address -> CID of a price source
