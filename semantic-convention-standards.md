@@ -11,6 +11,17 @@
 
 <img alt="Read objects" src="img/read_objects.png" width="600" />
 
+## How is it solved for RDF
+
+[R2RML: RDB to RDF Mapping Language](https://www.w3.org/2001/sw/rdb2rdf/r2rml/)  
+[R2RML: RDB to RDF Mapping Language Schema](https://www.w3.org/ns/r2rml)  
+[RDF Mapping Language (RML). Example: Mapping a JSON data source](https://rml.io/specs/rml/#example-JSON)  
+[RDB2Graph: A Generic Framework for Modeling Relational Databases as Graphs](http://ceur-ws.org/Vol-1312/jist2014pd_paper10.pdf)  
+[Schema.org](https://schema.org/docs/documents.html)  
+[Schema.org (example City Type)](https://schema.org/City)  
+[Web-Karma. Information Integration Tool](https://github.com/usc-isi-i2/Web-Karma)  
+[OpenRefine, tool for working with messy data and improving it](https://github.com/OpenRefine/OpenRefine)  
+[LOD-enabled version of OpenRefine](https://github.com/sparkica/LODRefine)
 
 ## Object Structure in cyber
 
